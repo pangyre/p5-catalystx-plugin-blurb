@@ -57,6 +57,10 @@ CatalystX::Plugin::Blurb - handle transient messages and UI elements.
 
 0.01
 
+=head1 NOTICE
+
+This is not something I'd encourage you to use yet. I am releasing it to the CPAN so it can be available for building another package. This is half done. It was written well over a year ago and barely used or touched since. It might be a mistake. It might be abandoned. If you try it though, have fun.
+
 =head1 SYNOPSIS
 
  use Catalyst qw(
@@ -82,9 +86,6 @@ Puts the blurbs into flash for the next request if C<flash_blurb> has been set.
 
 =back
 
-=head1 DIAGNOSTICS
-
-
 =head1 CONFIGURATION AND ENVIRONMENT
 
 =head1 BUGS AND LIMITATIONS
@@ -103,7 +104,7 @@ Ashley Pond V  C<< <ashley@cpan.org> >>.
 
 =head1 LICENCE AND COPYRIGHT
 
-Copyright (c) 2009, Ashley Pond V. All rights reserved.
+Copyright (c) 2009, Ashley Pond V.
 
 This module is free software; you can redistribute it and/or
 modify it under the same terms as Perl itself. See L<perlartistic>.

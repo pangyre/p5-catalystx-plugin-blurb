@@ -3,10 +3,10 @@ use inc::Module::Install;
 name 'CatalystX-Plugin-Blurb';
 all_from 'lib/CatalystX/Plugin/Blurb.pm';
 
-build_requires 'Catalyst::Runtime';
-build_requires 'Test::WWW::Mechanize::Catalyst';
-build_requires 'Test::More';
-build_requires 'ok';
+requires 'Catalyst::Runtime';
+test_requires 'Test::WWW::Mechanize::Catalyst';
+test_requires 'Test::More';
+test_requires 'ok';
 
 WriteAll();
 

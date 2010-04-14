@@ -1,7 +1,9 @@
 use inc::Module::Install;
 
 name 'CatalystX-Plugin-Blurb';
+license 'perl';
 all_from 'lib/CatalystX/Plugin/Blurb.pm';
+repository "git://github.com/pangyre/p5-catalystx-plugin-blurb";
 
 requires 'Catalyst::Runtime';
 test_requires 'Test::WWW::Mechanize::Catalyst';

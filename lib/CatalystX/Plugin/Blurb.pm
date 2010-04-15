@@ -2,7 +2,7 @@ package CatalystX::Plugin::Blurb;
 use strict;
 use warnings;
 
-our $VERSION = "0.02";
+our $VERSION = "0.03";
 
 sub blurb {
     my $c = shift;
@@ -57,7 +57,7 @@ CatalystX::Plugin::Blurb - (alpha software) handle transient messages and UI ele
 
 =head1 VERSION
 
-0.02
+0.03
 
 =head1 NOTICE
 

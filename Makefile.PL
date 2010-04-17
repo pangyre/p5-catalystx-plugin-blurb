@@ -6,6 +6,8 @@ all_from 'lib/CatalystX/Plugin/Blurb.pm';
 repository "git://github.com/pangyre/p5-catalystx-plugin-blurb";
 
 requires 'Catalyst::Runtime';
+requires 'parent';
+
 test_requires 'Test::WWW::Mechanize::Catalyst';
 test_requires 'Test::More';
 test_requires 'ok';
